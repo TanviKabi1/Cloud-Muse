@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+motor
+pydantic
+motor-asyncio
+emergentintegrations==0.1.0
