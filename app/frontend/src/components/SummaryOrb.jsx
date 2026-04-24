@@ -11,7 +11,7 @@ export const SummaryOrb = ({ content }) => {
       className="relative flex flex-col items-center"
       data-testid="summary-orb"
     >
-      <p className="font-hand text-xl text-pink-500 mb-3">a crystal of essence</p>
+      <p className="font-hand text-xl text-pink-500 mb-10">a crystal of essence</p>
       <motion.div
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
