@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/CloudMuse/",
+  base: "/Cloud-Muse/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
