@@ -170,7 +170,7 @@ const Home = () => {
               <div className="md:col-span-7 md:mt-4">
                 <BlogScroll topic={result.topic} content={result.blog} />
               </div>
-              <div className="md:col-span-5 flex flex-col gap-14 md:mt-24">
+              <div className="md:col-span-5 flex flex-col gap-24 md:mt-24">
                 <SummaryOrb content={result.summary} />
                 <LinkedInPostcard content={result.linkedin} />
               </div>

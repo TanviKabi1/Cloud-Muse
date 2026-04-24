@@ -29,8 +29,8 @@ export const SummaryOrb = ({ content }) => {
             className="absolute top-6 left-8 w-16 h-10 rounded-full"
             style={{ background: "radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%)" }}
           />
-          <div className="absolute inset-0 grid place-items-center p-10">
-            <p className="font-display italic text-slate-700 text-center text-lg md:text-xl leading-relaxed">
+          <div className="absolute inset-0 grid place-items-center p-14">
+            <p className="font-display italic text-slate-700 text-center text-base md:text-lg leading-relaxed overflow-hidden">
               <Typewriter text={content || ""} />
             </p>
           </div>
